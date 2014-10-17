@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/MQSI/9.0.0.0/classes/jplugin2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/EncryptionDecryption"/>
+	<classpathentry kind="lib" path="/EncryptionDecryption/lib/bcpg-jdk15on-148.jar"/>
+	<classpathentry kind="lib" path="/EncryptionDecryption/lib/bcprov-jdk15on-148.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

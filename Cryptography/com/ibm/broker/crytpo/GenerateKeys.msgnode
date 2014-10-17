@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow="http://www.ibm.com/wbi/2005/eflow" xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" nsURI="com/ibm/broker/crytpo/GenerateKeys.msgnode" nsPrefix="com_ibm_broker_crytpo_GenerateKeys.msgnode">
+  <eClassifiers xmi:type="eflow:FCMComposite" name="FCMComposite_1" useDefaults="true">
+    <eSuperTypes href="http://www.ibm.com/wbi/2005/eflow#//FCMBlock"/>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.algorithm" name="algorithm" eType="//@eClassifiers.1" defaultValueLiteral="RSA"/>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.publicKeyPath" name="publicKeyPath">
+      <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.privateKeyPath" name="privateKeyPath">
+      <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.keyIdentity" name="keyIdentity">
+      <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.keyPassphrase" name="keyPassphrase">
+      <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.isPassprahseEncoded" name="isPassprahseEncoded" defaultValueLiteral="false">
+      <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="Property.keySize" name="keySize" defaultValueLiteral="0">
+      <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <translation xmi:type="utility:TranslatableString" key="GenerateKeys" bundleName="com/ibm/broker/crytpo/GenerateKeys" pluginId="Cryptography"/>
+    <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/Cryptography/icons/full/obj16/com/ibm/broker/crytpo/GenerateKeys.gif"/>
+    <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/Cryptography/icons/full/obj30/com/ibm/broker/crytpo/GenerateKeys.gif"/>
+    <composition>
+      <nodes xmi:type="eflow:FCMSource" xmi:id="InTerminal.in" location="100,20">
+        <translation xmi:type="utility:TranslatableString" key="InTerminal.in" bundleName="com/ibm/broker/crytpo/GenerateKeys" pluginId="Cryptography"/>
+      </nodes>
+    </composition>
+    <propertyOrganizer>
+      <propertyDescriptor groupName="Group.Cryptography" configurable="true" describedAttribute="Property.algorithm">
+        <propertyName xmi:type="utility:TranslatableString" key="Property.algorithm" bundleName="com/ibm/broker/crytpo/GenerateKeys" pluginId="Cryptography"/>
+        <propertyDescriptor groupName="Group.Cryptography" describedAttribute="Property.publicKeyPath">
+          <propertyName xmi:type="utility:TranslatableString" key="Property.publicKeyPath" bundleName="com/ibm/broker/crytpo/GenerateKeys" pluginId="Cryptography"/>
+          <propertyDescriptor groupName="Group.Cryptography" describedAttribute="Property.privateKeyPath">
+            <propertyName xmi:type="utility:TranslatableString" key="Property.privateKeyPath" bundleName="com/ibm/broker/crytpo/GenerateKeys" pluginId="Cryptography"/>
+            <propertyDescriptor groupName="Group.Cryptography" describedAttribute="Property.keyIdentity">
+              <propertyName xmi:type="utility:TranslatableString" key="Property.keyIdentity" bundleName="com/ibm/broker/crytpo/GenerateKeys" pluginId="Cryptography"/>
+              <propertyDescriptor groupName="Group.Cryptography" describedAttribute="Property.keyPassphrase">
+                <propertyName xmi:type="utility:TranslatableString" key="Property.keyPassphrase" bundleName="com/ibm/broker/crytpo/GenerateKeys" pluginId="Cryptography"/>
+                <propertyDescriptor groupName="Group.Cryptography" describedAttribute="Property.isPassprahseEncoded">
+                  <propertyName xmi:type="utility:TranslatableString" key="Property.isPassprahseEncoded" bundleName="com/ibm/broker/crytpo/GenerateKeys" pluginId="Cryptography"/>
+                  <propertyDescriptor groupName="Group.Cryptography" describedAttribute="Property.keySize">
+                    <propertyName xmi:type="utility:TranslatableString" key="Property.keySize" bundleName="com/ibm/broker/crytpo/GenerateKeys" pluginId="Cryptography"/>
+                  </propertyDescriptor>
+                </propertyDescriptor>
+              </propertyDescriptor>
+            </propertyDescriptor>
+          </propertyDescriptor>
+        </propertyDescriptor>
+      </propertyDescriptor>
+    </propertyOrganizer>
+  </eClassifiers>
+  <eClassifiers xmi:type="ecore:EEnum">
+    <eLiterals xmi:id="algorithm.RSA" name="RSA"/>
+    <eLiterals xmi:id="algorithm.AES" name="AES" value="1"/>
+  </eClassifiers>
+</ecore:EPackage>

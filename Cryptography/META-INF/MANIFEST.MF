@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-Vendor:  Provider
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Name:  Plug-in
+Bundle-SymbolicName: Cryptography; singleton:=true
+Require-Bundle: com.ibm.etools.mft.api,com.ibm.etools.mft.config
+Bundle-Version: 1.0.0.qualifier
+Bundle-ManifestVersion: 2
+Export-Package: com.ibm.broker.crytpo
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdHelp xmlns="http://www.ibm.com/visualutils/pdhelpcontent"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ibm.com/visualutils/pdhelpcontent http://www.ibm.com/visualutils/pdhelpcontent">
+    <pluginCategory id="Cryptography">
+        <fieldHelp id="Encryption_Basic_encryptFieldName">
+            <title>encryptFieldName</title>
+            <description>
+                <p>If Field Name is not provided whole payload is encrypted</p>
+            </description>
+        </fieldHelp>
+    </pluginCategory>
+</pdHelp>
